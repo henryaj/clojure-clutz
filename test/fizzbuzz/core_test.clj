@@ -33,3 +33,20 @@
 (deftest is-x-divisible-by-y
   (testing "3 is divisible by 3"
     (is (divisible-by-number? 3 3))))
+
+(deftest prints-fizz-when-divisible-by-3
+  (testing "3 prints out Fizz"
+    (is (= "Fizz" (fizzbuzz 3)))))
+
+(deftest prints-buzz-when-divisible-by-5
+  (testing "5 prints out Buzz"
+    (is (= "Buzz" (fizzbuzz 5)))))
+
+(deftest prints-fizzbuzz-when-divisible-by-15
+  (testing "3 prints out Fizz"
+    (is (= "Fizz" (fizzbuzz 3)))))
+
+(deftest prints-number-otherwise
+  (testing "7 prints out 7"
+    (is (= 7 (fizzbuzz 7)))))
+

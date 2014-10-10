@@ -13,3 +13,7 @@
 
 (defn divisible-by-number? [number, divisor]
   (zero? (mod number divisor)))
+
+(defn fizzbuzz [number]
+  (if (divisible-by-three? number) "Fizz" (
+    if (divisible-by-five? number) "Buzz" number)))
