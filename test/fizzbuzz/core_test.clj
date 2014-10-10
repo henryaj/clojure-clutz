@@ -30,3 +30,6 @@
   (testing "1 is divisible by 15"
     (is (= false (divisible-by-five? 1) (divisible-by-three? 1)) )))
 
+(deftest is-x-divisible-by-y
+  (testing "3 is divisible by 3"
+    (is (divisible-by-number? 3 3))))
