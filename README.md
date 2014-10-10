@@ -1,14 +1,11 @@
-# fizzbuzz
+# Fizzbuzz in Clojure
 
-A Clojure library designed to ... well, that part is up to you.
+Experimenting with functional programming at Makers Academy. Here, I implement FizzBuzz in Clojure.
 
-## Usage
+## Testing
 
-FIXME
+Download the repo. From the root directory, execute 
 
-## License
+`$ lein test`
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+to see the tests run.
