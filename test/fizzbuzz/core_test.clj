@@ -7,9 +7,17 @@
     (is (= 1 1))))
 
 (deftest is-divisible-by-three
-  (testing "returns 3 for 3"
+  (testing "3 is divisible by 3"
     (is (divisible-by-three? 3))))
 
 (deftest is-divisible-by-three
-  (testing "returns false for 5"
+  (testing "5 is not divisible by 3"
     (is (= false (divisible-by-three? 5)))))
+
+(deftest is-divisible-by-five
+  (testing "5 is divisible by 5"
+    (is (divisible-by-five? 5))))
+
+(deftest is-divisible-by-five
+  (testing "1 is not divisible by 5"
+    (is (= false (divisible-by-five? 1)))))
