@@ -43,8 +43,8 @@
     (is (= "Buzz" (fizzbuzz 5)))))
 
 (deftest prints-fizzbuzz-when-divisible-by-15
-  (testing "3 prints out Fizz"
-    (is (= "Fizz" (fizzbuzz 3)))))
+  (testing "15 prints out FizzBuzz"
+    (is (= "FizzBuzz" (fizzbuzz 15)))))
 
 (deftest prints-number-otherwise
   (testing "7 prints out 7"
