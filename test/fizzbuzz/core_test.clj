@@ -9,3 +9,7 @@
 (deftest is-divisible-by-three
   (testing "returns 3 for 3"
     (is (divisible-by-three? 3))))
+
+(deftest is-divisible-by-three
+  (testing "returns false for 5"
+    (is (= false (divisible-by-three? 5)))))
