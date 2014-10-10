@@ -21,3 +21,11 @@
 (deftest is-divisible-by-five
   (testing "1 is not divisible by 5"
     (is (= false (divisible-by-five? 1)))))
+
+(deftest is-divisible-by-fifteen
+  (testing "15 is divisible by 15"
+    (is (= (divisible-by-five? 15) (divisible-by-three? 15)) )))
+
+(deftest is-divisible-by-fifteen
+  (testing "1 is divisible by 15"
+    (is (= false (divisible-by-five? 1) (divisible-by-three? 1)) )))
