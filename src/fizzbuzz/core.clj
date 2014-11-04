@@ -26,3 +26,6 @@
     (divisible-by-three? number) "Fizz"
     (divisible-by-five? number) "Buzz"
     :else number))
+
+(for [x (range 1 101)]
+       (fizzbuzz x))
